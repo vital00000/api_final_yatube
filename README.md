@@ -24,12 +24,11 @@ Cоздать и активировать виртуальное окружен�
 ```
 python -m venv env
 source env/bin/activate
-
+```
 Установить зависимости из файла requirements.txt:
 ```
 pip install -r requirements.txt
 
-```
 Выполнить миграции:
 ```
 python manage.py migrate
