@@ -20,18 +20,16 @@ Python 3.7, Django 2.2, DRF, JWT + Djoser
 git clone https://github.com/vitall00000/api_final_yatube.git
 cd api_final_yatube
 
+```
 Cоздать и активировать виртуальное окружение: 
 ```
 python -m venv env
-
 source env/bin/activate
-```
 
 ```
 Установить зависимости из файла requirements.txt:
 ```
 pip install -r requirements.txt
-```
 
 ```
 Выполнить миграции:
